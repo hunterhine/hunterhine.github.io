@@ -16,9 +16,46 @@ Bold 700
 Bold 700 italic
  */
 
-.pictures{padding:10px ; background-color: #33FFAD;margin: 3em; margin-right: 70em;}
-.info {font-family: 'Lato', sans-serif; font-size: 17px;}
-h1 {font-family:'Roboto Serif', sans-serif; font-size: 2.5em; font-weight: 700; font-style: italic; color: #297FDD;}
-h2 {font-family: 'Lato', sans-serif; font-size: 2em; font-style: normal; color: #297FDD;}
-ul{padding: 20px; background-color:#33D1FF;font-family: 'Roboto Serif', sans-serif;font-size:20px;margin-right: 25em;}
-#link{font-family:'Roboto Serif', sans-serif; font-size: 1.5em; font-style: italic;}
+.pictures {padding:10px; 
+    background-color: #33FFAD;
+    margin: 3em; 
+    margin-right: 68em;
+}
+
+.info {font-family: 'Lato', sans-serif; 
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {font-family:'Roboto Serif', sans-serif; 
+    font-size: 2.5em; 
+    font-weight: 700; 
+    font-style: italic; 
+    color: #297FDD;
+    margin-left: 20px;
+}
+
+h2 {font-family: 'Lato', sans-serif; 
+    font-size: 2em; 
+    font-style: normal; 
+    color: #297FDD;
+    margin-left: 15px;
+}
+
+h3 {margin-left: 15px;
+
+}
+ul {padding: 20px; 
+    background-color:#33D1FF;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size:20px;
+    margin-right: 20em;
+    margin-left: 20px;
+}
+
+#link {font-family:'Roboto Serif', sans-serif; 
+    font-size: 1.5em; 
+    font-style: italic;
+    margin-left: 15px;
+}
