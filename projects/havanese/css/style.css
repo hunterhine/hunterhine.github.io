@@ -1,0 +1,39 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+.section{
+    font-family: 'Libre Franklin';
+    font-size: 30px;
+}
+/*removed h4 since I removed it in html to reduce redundancy.*/
+h3{
+    font-family: 'PT Serif';
+    font-size: 20px;
+    color: #B1835E;
+}
+
+.box{
+   background-color: #A0C9B8;
+   font-size: 15px;
+   /*changed line height from 8 to 16, after my html changes it was too close together*/
+   line-height: 16px;
+   margin-right: 50%;
+   padding: 20px;
+
+}
+
+img{
+    width: 30%;
+}
+/*DESIGN CHOICE COMMENTS- I would have chosen different colors for the box and category titles. 
+The box color does not match well with the titles, the colors are very different and non-complimentary. 
+I also would have added more margins to the text for the right and left sides of the page.
+The text awkwardly strecthes across the entire screen and meets its very edges.
+I would also note that the fonts are not very complimentary. The Times New Roman doesn't match well with Libre Franklin. 
+I do like that it utilizes both serif and sans-serif fonts, however I think two other ones could have matched more aesthetically.
+Some kind of box or border around the images also would have been more aesthic. I would've also changed their orientation on the page 
+from the far left to maybe more center or even to the right. Although I did not do this on my wiki page either, it would've looked
+ nice to have different images oriented in different spots, so the page doesn't look so unifrom and formulaic. It probably would've 
+ helped to use an id selector for each image to give them different qualities.
+ I also would'e added an external font the the main paragraphs of the page. All the paragraphs are still default HTML fonts.
+ The CSS is lacking a comment noting the font types, but if I remember correctly that doesn't necessarily matter.*/
