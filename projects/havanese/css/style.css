@@ -1,5 +1,6 @@
 body{
-    font-family:'Times New Roman', Times, serif
+    /*inserted missing semicolon at the end of serif*/
+    font-family:'Times New Roman', Times, serif;
 }
 .section{
     font-family: 'Libre Franklin';
@@ -25,6 +26,7 @@ h3{
 img{
     width: 30%;
 }
+
 /*DESIGN CHOICE COMMENTS- I would have chosen different colors for the box and category titles. 
 The box color does not match well with the titles, the colors are very different and non-complimentary. 
 I also would have added more margins to the text for the right and left sides of the page.
