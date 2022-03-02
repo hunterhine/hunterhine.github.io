@@ -14,6 +14,15 @@ nav {
     color:#FBFCEE;
     padding: 2em;
     border-bottom: 2px solid #C2FEF1;
+
+}
+
+h1 { font-style: italic;
+    font-weight: 400;
+}
+
+h2 {font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .nav-link{
@@ -22,6 +31,8 @@ nav {
     font-weight: 600;
     font-style: italic;
 }
+
+
 
 a{
     color: #C2FEF1;
@@ -34,23 +45,6 @@ a{
 
 a:hover{
     color:#007A6E;
-}
-
-h1 { font-style: italic;
-    font-weight: 400;
-}
-
-h2{font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-.navbar{
-    border-top: 2px solid #C2FEF1;
-    background-color:#007A6E;
-}
-
-.nav-link:hover, .navbar .nav-link:hover{
-color:#03394f;
 }
 
 .row{
@@ -78,6 +72,17 @@ color:#03394f;
     border-bottom:2px solid #C2FEF1;
     background-color:#007A6E;
 }
+
+
+.navbar{
+    border-top: 2px solid #C2FEF1;
+    background-color:#007A6E;
+}
+
+.nav-link:hover, .navbar .nav-link:hover{
+color:#03394f;
+}
+
 
 footer{
    border-top: 2px solid #C2FEF1;
