@@ -99,3 +99,38 @@ footer{
     line-height: 30px;
 
 }
+
+@media (max-width:450px){
+
+   h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size:1em;
+    }
+    #img1{
+        display: none;
+    }
+    .row p{
+        font-size: .7em;
+    }
+
+
+}
+
+@media (min-width: 750px){
+   h1{
+    font-size: 3em;
+}
+h2{
+    font-size:2em;
+}
+#img1{
+    margin:55px 0;
+
+}
+.row p{
+    font-size: 1.5em;
+}
+
+}
