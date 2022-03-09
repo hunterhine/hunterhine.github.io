@@ -24,13 +24,16 @@ h3{
     font-size: 20px;
     color: #EB4E1E;
     font-family:'Space Grotesk', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     padding:20px;
+    line-height: 1.4em;
 }
 
-nav{
+.nav-link{
     font-family: 'Space Grotesk', sans-serif;
-
+color: #005FA3;
+font-size: 2em;
+font-weight:500 ;
 }
 
 .bio{
@@ -48,12 +51,19 @@ nav{
 .row img{
    text-align: center;
    background-color: #04622E;
-   padding: 40px;
+   padding: 20px;
  justify-content: center;
 }
 
 .caption{
     color: #EB4E1E;
     font-family:'Space Grotesk', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    padding:1em;
+}
+
+footer{
+    padding: 2em;
+    border-width: 2em;
+    border-color: #04622E;
 }
