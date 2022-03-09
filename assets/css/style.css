@@ -34,6 +34,7 @@ h3{
 color: #005FA3;
 font-size: 2em;
 font-weight:500 ;
+font-style: italic;
 }
 
 .bio{
@@ -62,6 +63,23 @@ font-weight:500 ;
     padding:1em;
 }
 
+#img2{
+background-color: #005FA3;
+}
+
+#img3{
+    background-color: #EB4E1E;
+}
+
+#img4{
+    background-color: #EFCC6C;
+}
+
+em{
+
+    margin: 1.5em;
+    
+}
 footer{
     padding: 2em;
     border-width: 2em;
