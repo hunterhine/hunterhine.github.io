@@ -1,1 +1,59 @@
+/*font-family: 'Bodoni Moda', serif;
+font-family: 'Space Grotesk', sans-serif;
+*/
 
+body{
+    background: #040710;
+    text-align: center;
+    color:#EFCC6C;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    padding-top:20px;
+}
+
+h2{
+    font-size: 50px;
+ 
+}
+
+h3{
+    font-size: 20px;
+    color: #EB4E1E;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight: 500;
+    padding:20px;
+}
+
+nav{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.bio{
+    font-size: 1.7em;
+    padding:20px;
+    font-weight: 500;
+}
+
+.block{
+    align-items: center;
+    padding: 70px;
+  
+}
+
+.row img{
+   text-align: center;
+   background-color: #04622E;
+   padding: 40px;
+ justify-content: center;
+}
+
+.caption{
+    color: #EB4E1E;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
