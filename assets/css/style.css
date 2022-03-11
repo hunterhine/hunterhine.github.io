@@ -4,7 +4,6 @@ font-family: 'Space Grotesk', sans-serif;
 
 body {
     background: #040710;
-    text-align: center;
     color: #EFCC6C;
     font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
@@ -61,6 +60,11 @@ h2 {
 
 }
 
+.home {
+    display: flex;
+    height: 75vh;
+}
+
 /*.block {
 
     padding: 70px;
@@ -73,15 +77,18 @@ h2 {
 
 .row img {
     text-align: center;
-    background-color: #04622E;
-    padding: 10px;
+    border-bottom: 15px solid #04622E;
 
 }
 
 .caption {
-    color: #EB4E1E;
-    font-family: 'Space Grotesk', sans-serif;
-    padding: 18px 0 0 0;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    padding: 10px 0 0 0;
+    font-size: .8em;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-align: right;
 }
 
 @media (max-width:450px) {
