@@ -1,94 +1,130 @@
-/*font-family: 'Bodoni Moda', serif;
+/*font-family: 'Kanit', sans-serif;
 font-family: 'Space Grotesk', sans-serif;
 */
 
-body{
+body {
     background: #040710;
     text-align: center;
-    color:#EFCC6C;
-    font-family: 'Bodoni Moda', serif;
+    color: #EFCC6C;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 20px 0;
 }
 
-h1{
-    font-size: 70px;
-    font-weight: 600;
-    padding-top:20px;
+header {
+    margin: 0 0 40px 0;
 }
 
-h2{
-    font-size: 50px;
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+
+
 }
 
-.title{
-    padding: 20px;
+h2 {
+    font-size: 1.25em;
+    display: inline;
+    font-weight: 100;
+    border-bottom: 2px solid #04622E;
 }
 
-h3{
-    font-size: 20px;
+.clips a, h3 {
+    font-size: 1.1em;
     color: #EB4E1E;
-    font-family:'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 600;
-    padding:20px;
+    text-decoration: none;
     line-height: 1.4em;
 }
 
-.nav-link{
-    font-family: 'Space Grotesk', sans-serif;
-color: #005FA3;
-font-size: 2em;
-font-weight:500 ;
-font-style: italic;
-}
-
-.bio{
-    font-size: 1.7em;
-    padding:20px;
-    font-weight: 500;
-}
-
-.block{
-    align-items: center;
-    padding: 70px;
-  
-}
-
-.section{
-padding: 70px;
-}
-
-.row img{
-   text-align: center;
-   background-color: #04622E;
-   padding: 10px;
- justify-content: center;
-}
-
-.caption{
-    color: #EB4E1E;
-    font-family:'Space Grotesk', sans-serif;
+.clips a {
+    color: #fff;
     font-weight: 400;
-    padding:1em;
 }
 
-#img2{
-background-color: #005FA3;
+/*.title {
+    padding: 20px;
+}*/
+
+.nav-link {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #EB4E1E;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-#img3{
+.bio {
+    font-size: 1.5em;
+
+}
+
+/*.block {
+
+    padding: 70px;
+
+}
+
+.section {
+    padding: 70px;
+}*/
+
+.row img {
+    text-align: center;
+    background-color: #04622E;
+    padding: 10px;
+
+}
+
+.caption {
+    color: #EB4E1E;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 18px 0 0 0;
+}
+
+@media (max-width:450px) {
+    header {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    main {
+        text-align: center;
+        display: block;
+        font-size: .9em;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .caption {
+        text-align: center;
+    }
+}
+
+/*#img2 {
+    background-color: #005FA3;
+}
+
+#img3 {
     background-color: #EB4E1E;
 }
 
-#img4{
+#img4 {
     background-color: #EFCC6C;
 }
 
-em{
- font-size: 1.5em;
-   
-    
+em {
+    font-size: 1.5em;
+
+
 }
-footer{
+
+footer {
     padding: 2em;
     border-width: 2em;
     border-color: #04622E;
-}
+}*/
