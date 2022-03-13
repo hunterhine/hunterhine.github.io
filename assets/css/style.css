@@ -23,6 +23,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Kanit', sans-serif;
     font-size: 1.25em;
     display: inline;
     font-weight: 100;
@@ -31,7 +32,8 @@ h2 {
 
 .page {
     font-size: 2em;
-    line-height: 100px;
+    line-height: 75px;
+    font-weight: 600;
 
 }
 
@@ -57,9 +59,16 @@ h2 {
     color: #EB4E1E;
 }
 
-/*.title {
-    padding: 20px;
-}*/
+.title {
+    font-size: 2.7em;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EB4E1E;
+
+}
 
 .nav-link {
     font-family: 'Space Grotesk', sans-serif;
@@ -98,6 +107,24 @@ h2 {
     font-weight: 300;
     letter-spacing: 1.1px;
     text-align: right;
+}
+
+/*Resume only*/
+
+.subt {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.desc {
+    font-size: 1.1em;
+
+}
+
+.tf {
+    font-size: .8em;
 }
 
 @media (max-width:450px) {
