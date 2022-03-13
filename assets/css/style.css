@@ -29,6 +29,12 @@ h2 {
     border-bottom: 2px solid #04622E;
 }
 
+.page {
+    font-size: 2em;
+    line-height: 100px;
+
+}
+
 .clips a, h3 {
     font-size: 1.1em;
     color: #EB4E1E;
@@ -41,6 +47,14 @@ h2 {
 .clips a {
     color: #fff;
     font-weight: 400;
+}
+
+.clips a:hover {
+    color: blue;
+}
+
+.bio a:hover {
+    color: #EB4E1E;
 }
 
 /*.title {
@@ -63,17 +77,12 @@ h2 {
 .home {
     display: flex;
     height: 75vh;
+    padding-top: 5em;
 }
 
-/*.block {
-
-    padding: 70px;
-
+.item {
+    padding-bottom: 30px;
 }
-
-.section {
-    padding: 70px;
-}*/
 
 .row img {
     text-align: center;
