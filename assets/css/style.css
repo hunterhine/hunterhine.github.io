@@ -71,7 +71,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #EB4E1E;
-   
+
 
 }
 
@@ -131,6 +131,7 @@ h2 {
 .tf {
     font-size: .8em;
 }
+
 /*resume end*/
 
 @media (max-width:450px) {
@@ -155,12 +156,9 @@ h2 {
 }
 
 #img1 {
-    border-color:#EB4E1E;
+    border-color: #EB4E1E;
 }
 
 #img3 {
     border-color: #EFCC6C;
 }
-
-
-
