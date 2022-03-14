@@ -55,8 +55,12 @@ h2 {
     color: blue;
 }
 
+.bio a {
+    color: #EB4E1E
+}
+
 .bio a:hover {
-    color: #EB4E1E;
+    color: blue;
 }
 
 .title {
@@ -67,6 +71,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #EB4E1E;
+   
 
 }
 
@@ -126,6 +131,7 @@ h2 {
 .tf {
     font-size: .8em;
 }
+/*resume end*/
 
 @media (max-width:450px) {
     header {
@@ -148,26 +154,13 @@ h2 {
     }
 }
 
-/*#img2 {
-    background-color: #005FA3;
+#img1 {
+    border-color:#EB4E1E;
 }
 
 #img3 {
-    background-color: #EB4E1E;
+    border-color: #EFCC6C;
 }
 
-#img4 {
-    background-color: #EFCC6C;
-}
-
-em {
-    font-size: 1.5em;
 
 
-}
-
-footer {
-    padding: 2em;
-    border-width: 2em;
-    border-color: #04622E;
-}*/
