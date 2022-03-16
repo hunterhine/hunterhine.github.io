@@ -19,8 +19,6 @@ h1 {
     font-family: 'Kanit', sans-serif;
     font-size: 2.5em;
     font-weight: 500;
-
-
 }
 
 h2 {
@@ -75,9 +73,7 @@ a:hover {
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     padding-top: 10px;
-
     color: #EB4E1E;
-
 
 }
 
@@ -164,15 +160,15 @@ a:hover {
     .home {
         height: 100%;
     }
-
-
 }
 
 @media (max-width:767px) {
     #break {
         padding-bottom: 15px;
         border-bottom: 5px solid #04622E;
+
     }
+
 }
 
 #img1 {
