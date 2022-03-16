@@ -57,11 +57,11 @@ h2 {
     color: blue;
 }
 
- a {
+a {
     color: #EB4E1E
 }
 
- a:hover {
+a:hover {
     color: blue;
 }
 
@@ -118,19 +118,19 @@ h2 {
 /*Resume only*/
 
 .subt {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 500;
     font-style: italic;
 
 }
 
 .desc {
-    font-size: 1.1em;
+    font-size: 1.5em;
 
 }
 
 .tf {
-    font-size: .8em;
+    font-size: 1.2em;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -156,6 +156,7 @@ h2 {
         text-align: center;
     }
 }
+
 
 #img1 {
     border-color: #EB4E1E;
