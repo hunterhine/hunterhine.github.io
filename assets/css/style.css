@@ -165,11 +165,15 @@ a:hover {
         height: 100%;
     }
 
-    .nav-link{
-        text-align: center;
-    }
+
 }
 
+@media (max-width:767px) {
+    #break {
+        padding-bottom: 15px;
+        border-bottom: 5px solid #04622E;
+    }
+}
 
 #img1 {
     border-color: #EB4E1E;
