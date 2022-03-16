@@ -33,18 +33,23 @@ h2 {
 
 .page {
     font-size: 2em;
-    line-height: 75px;
+    line-height: 4;
     font-weight: 600;
 
 }
 
-.clips a, h3 {
+.clips a, h3, footer a {
     font-size: 1.1em;
     color: #EB4E1E;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 600;
     text-decoration: none;
     line-height: 1.4em;
+}
+
+footer a {
+    display: block;
+    line-height: 0;
 }
 
 .clips a {
@@ -91,7 +96,7 @@ a:hover {
 
 .home {
     display: flex;
-    height: 75vh;
+    height: 75%;
     padding-top: 5em;
 }
 
@@ -153,6 +158,14 @@ a:hover {
     }
 
     .caption {
+        text-align: center;
+    }
+
+    .home {
+        height: 100%;
+    }
+
+    .nav-link{
         text-align: center;
     }
 }
