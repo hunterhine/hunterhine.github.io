@@ -51,6 +51,28 @@ a:hover {
     color: #DF4601;
 }
 
+section{
+    width:65%;
+    margin:0 auto;
+    padding:5% 0;
+}
+
+.intro{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+
+}
+
+.graphic{
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+.name{
+    text-transform: uppercase;
+    color: #DF4601;
+}
+
 @media(max-width=850px) {
     body {
         font-size: 16px;
@@ -71,6 +93,10 @@ a:hover {
 
     header {
         margin: 50% 0 0 0;
+    }
+
+    section, footer{
+        width:95%;
     }
 }
 
