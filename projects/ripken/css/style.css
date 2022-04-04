@@ -111,6 +111,10 @@ blockquote{
     font-size: .8em;
 }
 
+.chart{
+    background-color: #ffffff;
+    padding: 30%;
+}
 @media(max-width=850px) {
     body {
         font-size: 16px;
@@ -120,6 +124,9 @@ blockquote{
     header {
         margin: 25% 0 0 0;
 
+    }
+    .chart{
+        padding: 2%;
     }
 }
 
