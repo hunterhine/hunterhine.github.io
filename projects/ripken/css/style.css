@@ -73,6 +73,13 @@ section{
     color: #DF4601;
 }
 
+i{
+    font-size: .8em;
+    font-style: italic;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
 @media(max-width=850px) {
     body {
         font-size: 16px;
@@ -97,6 +104,10 @@ section{
 
     section, footer{
         width:95%;
+    }
+
+    i{
+        font-size: .9em;
     }
 }
 
