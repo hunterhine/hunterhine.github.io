@@ -43,6 +43,8 @@ a {
     color: #f5f5f5;
     text-decoration: #DF4601;
     font-weight: 600;
+    border-bottom: 1px solid #DF4601;
+
 
 }
 
@@ -51,70 +53,75 @@ a:hover {
     color: #DF4601;
 }
 
-section{
-    width:65%;
-    margin:0 auto;
-    padding:5% 0;
+section {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5% 0;
 }
 
-.intro{
+.intro {
     text-transform: uppercase;
     letter-spacing: 1.2px;
 
 }
 
-.graphic{
+.graphic {
     background-color: #ffffff;
     padding: 5%;
 }
 
-.name{
+.name {
     text-transform: uppercase;
     color: #DF4601;
 }
 
-i{
+i {
     font-size: .8em;
     font-style: italic;
     font-family: 'Barlow Condensed', sans-serif;
 
 }
 
-h2{
+h2 {
     background-color: #f5f5f5;
-    color:#080707;
+    color: #080707;
     margin: 5% 0;
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 1.3px;
 }
 
-h3{
+h3 {
     font-size: 1.1em;
 }
 
-blockquote{
+blockquote {
     font-family: 'Manrope', sans-serif;
     text-align: center;
     background-color: #DF4601;
-    padding:2%;
+    padding: 2%;
 
 }
 
-.quote{
+.quote {
     font-size: 1.2em;
     font-weight: 500;
 }
 
-.cite{
+.cite {
     font-style: italic;
     font-size: .8em;
 }
 
-.chart{
+.chart {
     background-color: #ffffff;
-    padding: 30%;
+    padding: 3%;
 }
+
+footer{
+    text-align: center;
+}
+
 @media(max-width=850px) {
     body {
         font-size: 16px;
@@ -125,7 +132,8 @@ blockquote{
         margin: 25% 0 0 0;
 
     }
-    .chart{
+
+    .chart {
         padding: 2%;
     }
 }
@@ -140,11 +148,11 @@ blockquote{
         margin: 50% 0 0 0;
     }
 
-    section, footer{
-        width:95%;
+    section, footer {
+        width: 95%;
     }
 
-    i{
+    i {
         font-size: .9em;
     }
 }
