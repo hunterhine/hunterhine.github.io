@@ -122,7 +122,7 @@ footer{
     text-align: center;
 }
 
-@media(max-width=850px) {
+@media(max-width:850px) {
     body {
         font-size: 16px;
 
@@ -138,7 +138,7 @@ footer{
     }
 }
 
-@media(max-width=450px) {
+@media(max-width:450px) {
     body {
         font-size: 14px;
 
@@ -157,14 +157,14 @@ footer{
     }
 }
 
-@media(min-width=1000) {
+@media(min-width:1000px) {
     header {
         margin: 15% 2% 0 0;
 
     }
 }
 
-@media(max-width=992) {
+@media(max-width:992px) {
     header {
         text-align: center;
         margin: 0 0 5% 0;
