@@ -21,7 +21,7 @@ header {
 
 }
 
-#overline {
+header #overline {
     background-color: #DF4601;
     display: inline;
     padding: 1% 2%;
@@ -118,9 +118,7 @@ blockquote {
     padding: 3%;
 }
 
-footer{
-    text-align: center;
-}
+
 
 @media(max-width:850px) {
     body {
@@ -167,7 +165,7 @@ footer{
 @media(max-width:992px) {
     header {
         text-align: center;
-        margin: 0 0 5% 0;
+       
     }
     video{
         margin: 0 0 5% 0;
