@@ -86,10 +86,15 @@ footer{
 
 }
 
-@media(max-width:768px){
 
+
+@media(max-width:1200px){
+
+    body{
+        margin:3em;
+    }
     header{
-        padding:0;
+        padding:1em 0;
     }
     h1, h3{
         padding: .5em .5em;
@@ -103,9 +108,6 @@ footer{
     }
     
     h3{
-     font-style: italic;
-     font-weight: 400;
-     background-color: #fdd94e;
      font-size: 1.4em;
     
     
@@ -117,7 +119,6 @@ footer{
     }
     
    
-
     .borderbox{
         padding: 2em 0;
     }
@@ -129,4 +130,6 @@ footer{
     i{
         font-size: 1.2em;
     }
+
+
 }
