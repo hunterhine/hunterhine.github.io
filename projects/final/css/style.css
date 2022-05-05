@@ -6,9 +6,11 @@ font-family: 'Raleway', sans-serif;
 body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 50px 0;
     font-size: 20px;
     color: #09090B;
+}
+header{
+    padding:3%;
 }
 h1, h3{
     padding: .5em 1em;
@@ -32,6 +34,11 @@ h3{
 
 }
 
+p{
+    margin:1em 5em;
+}
+
+
 i{
  font-weight: 300;
  font-size: .8em;
@@ -39,31 +46,18 @@ i{
  background-color: #e42535;
 }
 
-p{
-    margin:1em 5em ;
-}
-
-
-.graphic{
-    padding:1em;
-    background-color: #e42535;
-  
-}
-
-
-.dw{
-    background-color: #fdd94e;
-    padding:.5em;
-}
-
-.rowgraph{
-    padding:3em;
-}
 
 .borderbox{
-  
-    padding: 2em 2em 1.5em;
+    padding: 2em ;
 }
+
+.allgraph{
+    border-top:20px solid #e42535;
+    border-bottom: 20px solid #fdd94e;
+margin:2.5em 0;
+
+}
+
 
 .caption{
     font-family: 'Akshar', sans-serif;
@@ -85,4 +79,54 @@ a {
 
 a:hover {
     color: #fdd94e;
+}
+
+footer{
+    padding: 2em 0;
+
+}
+
+@media(max-width:768px){
+
+    header{
+        padding:0;
+    }
+    h1, h3{
+        padding: .5em .5em;
+    
+    }
+
+    h1{
+       
+      margin: 0 ;
+       
+    }
+    
+    h3{
+     font-style: italic;
+     font-weight: 400;
+     background-color: #fdd94e;
+     font-size: 1.4em;
+    
+    
+    }
+
+    p{
+        margin:1em .1em;
+        font-size: 1.3em;
+    }
+    
+   
+
+    .borderbox{
+        padding: 2em 0;
+    }
+
+    .caption{
+       font-size:1.4em
+    }
+    
+    i{
+        font-size: 1.2em;
+    }
 }
