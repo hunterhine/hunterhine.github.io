@@ -1,0 +1,88 @@
+/*
+font-family: 'Akshar', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 50px 0;
+    font-size: 20px;
+    color: #09090B;
+}
+h1, h3{
+    padding: .5em 1em;
+
+}
+h1{
+    font-family: 'Akshar', sans-serif;
+    font-weight: 500;
+    background-color: #e42535;
+    font-size: 2em;
+  margin: 0 10% 0 0;
+   
+}
+
+h3{
+ font-style: italic;
+ font-weight: 400;
+ background-color: #fdd94e;
+ font-size: 1.2em;
+
+
+}
+
+i{
+ font-weight: 300;
+ font-size: .8em;
+ padding:.5em;
+ background-color: #e42535;
+}
+
+p{
+    margin:1em 5em ;
+}
+
+
+.graphic{
+    padding:1em;
+    background-color: #e42535;
+  
+}
+
+
+.dw{
+    background-color: #fdd94e;
+    padding:.5em;
+}
+
+.rowgraph{
+    padding:3em;
+}
+
+.borderbox{
+  
+    padding: 2em 2em 1.5em;
+}
+
+.caption{
+    font-family: 'Akshar', sans-serif;
+    font-weight: 500;
+    background-color: #fdd94e;
+   padding: .5em;
+}
+
+#bq{
+    font-family: 'Akshar', sans-serif;
+font-size: 2em;
+font-weight: 600;
+}
+
+a {
+    color:#e42535;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fdd94e;
+}
