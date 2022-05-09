@@ -136,12 +136,17 @@ width:60%;
     .mobile{
         margin:8px;
     }
-}
-
-@media(max-width:767px)
-{
     #bq{
         border: none;
         padding:15px 0 50px 0;
     }
+}
+
+
+@media(max-width:414px)
+{
+    .float-right{
+        margin:10px;
+        width:100%;
+            }
 }
