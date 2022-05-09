@@ -14,7 +14,7 @@ header{
     padding:3%;
 }
 h1, h3{
-    padding: .5em 1em;
+    padding:15px;
 
 }
 h1{
@@ -36,26 +36,28 @@ h3{
 }
 
 p{
-    margin:1em 5em;
+    font-size: 1.1em;
 }
 
 
 i{
  font-weight: 300;
  font-size: .8em;
- padding:.5em;
+ padding:9px;
  background-color: #e42535;
 }
 
 
 .borderbox{
-    padding: 2em ;
+
+    margin: 75px 0;
 }
 
 .allgraph{
     border-top:20px solid #e42535;
     border-bottom: 20px solid #fdd94e;
-margin:2.5em 0;
+    
+
 
 }
 
@@ -64,13 +66,18 @@ margin:2.5em 0;
     font-family: 'Akshar', sans-serif;
     font-weight: 500;
     background-color: #fdd94e;
-   padding: .5em;
+   padding: 15px;
 }
 
 #bq{
     font-family: 'Akshar', sans-serif;
-font-size: 2em;
+font-size: 1.5em;
 font-weight: 600;
+border-left: 3px solid #e42535;
+font-style: italic;
+padding:20px 0 20px 30px;
+
+
 }
 
 a {
@@ -83,54 +90,53 @@ a:hover {
 }
 
 footer{
-    padding: 2em 0;
+    padding: 50px 0 0 0;
 
 }
+
+.float-right {
+    float: right;
+  
+    }
 
 
 
 @media(max-width:1200px){
-
-    body{
-        margin:3em;
-    }
-    header{
-        padding:1em 0;
-    }
-    h1, h3{
-        padding: .5em .5em;
-    
-    }
-
-    h1{
-       
-      margin: 0 ;
-       
-    }
-    
-    h3{
-     font-size: 1.4em;
-    
-    
-    }
-
-    p{
-        margin:1em .1em;
-        font-size: 1.3em;
-    }
-    
-   
-    .borderbox{
-        padding: 2em 0;
-    }
 
     .caption{
        font-size:1.4em
     }
     
     i{
-        font-size: 1.2em;
+        font-size: .9em;
     }
 
 
+}
+
+@media(max-width:991px){
+    .float-right{
+margin:0 10px;
+width:60%;
+    }
+}
+
+@media(min-width:768px){
+.mobile{
+    display:none;
+}
+}
+
+@media(max-width:767px){
+    .desktop{
+        display: none;
+    }
+}
+
+@media(max-width:767px)
+{
+    #bq{
+        border: none;
+        padding:15px 0 50px 0;
+    }
 }
