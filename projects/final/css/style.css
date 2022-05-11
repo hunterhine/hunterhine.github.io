@@ -45,13 +45,11 @@ i{
  font-weight: 300;
  font-size: .8em;
  padding:8px;
-
  background-color: #e42535;
 }
 
 
 .borderbox{
-
     margin: 75px 0;
 }
 
@@ -98,7 +96,6 @@ footer{
 
 .float-right {
     float: right;
-  
     }
 
 
